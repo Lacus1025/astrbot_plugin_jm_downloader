@@ -1,14 +1,15 @@
-# astrbot-plugin-helloworld
+# astrbot_plugin_jm_downloader
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+JMComic 本子下载插件 for AstrBot，支持下载为带密码的 PDF 并上传至群文件。
 
-> [!NOTE]
-> This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
-> 
-> [AstrBot](https://github.com/AstrBotDevs/AstrBot) is an agentic assistant for both personal and group conversations. It can be deployed across dozens of mainstream instant messaging platforms, including QQ, Telegram, Feishu, DingTalk, Slack, LINE, Discord, Matrix, etc. In addition, it provides a reliable and extensible conversational AI infrastructure for individuals, developers, and teams. Whether you need a personal AI companion, an intelligent customer support agent, an automation assistant, or an enterprise knowledge base, AstrBot enables you to quickly build AI applications directly within your existing messaging workflows.
+## 命令
 
-# Supports
+- `/jm <车号>` — 下载指定本子，合并为 PDF（密码: saki），上传到群文件或返回文件路径
 
-- [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
-- [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
-- [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
+## 依赖
+
+- `jmcomic`
+- `img2pdf`
+- `pikepdf`
+
+已包含于 `requirements.txt`。

@@ -1,0 +1,28 @@
+client:
+  async_impl: async_api
+  cache: null
+  domain: []
+  impl: api
+  postman:
+    meta_data:
+      headers: null
+      impersonate: chrome
+      proxies: {}
+    type: curl_cffi
+  retry_times: 5
+dir_rule:
+  base_dir: ./
+  normalize_zh: null
+  rule: Bd / {Aid}
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: .jpg
+  threading:
+    image: 30
+    photo: 16
+log: true
+plugins:
+  valid: log
+version: '2.1'
