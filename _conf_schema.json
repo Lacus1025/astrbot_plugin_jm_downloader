@@ -1,0 +1,24 @@
+{
+    "PDF_secret": {
+      "description": "PDF查看密码",
+      "type": "string",
+      "default": "jmcomic"
+    },
+    "enable_title": {
+      "description": "是否启用标题显示",
+      "type": "bool"
+    },
+    "enable_cover_page": {
+      "description": "是否启用封面显示",
+      "type": "bool"
+    },
+    "enable_cover_page_blur": {
+        "description": "是否启用封面模糊处理",
+        "type": "bool"
+    },
+    "blur_radius": {
+        "description": "封面模糊处理的模糊半径",
+        "type": "int",
+        "default": 10
+    }
+}
