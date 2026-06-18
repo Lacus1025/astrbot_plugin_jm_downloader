@@ -95,7 +95,7 @@ class MyPlugin(Star):
                             str(self.plugin_data_path / f"{album_id}_cover.png"),
                             str(self.plugin_data_path / f"{album_id}_cover_blur.png"),
                             self.config.get("blur_radius"),
-                            0.4
+                            self.config.get("blur_area_ratio"),
                         )
 
                 if self.config.get("enable_title") :

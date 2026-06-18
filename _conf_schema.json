@@ -20,5 +20,10 @@
         "description": "封面模糊处理的模糊半径",
         "type": "int",
         "default": 10
+    },
+    "blur_area_ratio": {
+        "description": "封面模糊处理的模糊区域占比（0-1之间的小数）",
+        "type": "float",
+        "default": 0.5
     }
 }
